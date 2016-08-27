@@ -1,0 +1,45 @@
+._720kb-datepicker-calendar{
+	width:initial;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+.ng-invalid{
+	border-color: red;
+}
+
+.row::after, .tab-group::after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.row{
+	margin: 1% 0;
+	padding: 0 2%;
+}
+
+.tab, .col{
+	float: left;	
+}
+
+.col{
+	width: 49%;
+	margin: 1% 0.5%;
+}
+
+.tab{
+	width: 50%;	
+	border: 1px solid;
+	padding: 2%;	
+	font-size: large;
+	color: white;
+	background: black;
+
+}
